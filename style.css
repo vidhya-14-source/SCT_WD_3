@@ -1,0 +1,31 @@
+h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.game-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#reset-button {
+    margin-top: 40px;
+    margin-left: 701px;
+    font-size: larger;
+}
